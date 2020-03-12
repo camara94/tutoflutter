@@ -25,3 +25,12 @@ Les bases de flutter
 * comment faire des import en dart,
 * comment convertir une chaine en objet JSON(**JavaScript Object Notation**) avec <code>json.decode(variable)</code>,
 * comment convertir un Objet *JSON* en une chaine de caractère <code>json.encode(objet)</code>
+
+## Les Concepts de Bases de Flutter
+### Les Widget Stateless
+C'est un widget qui ne depend que de ses propres informations, c'est à dire des informations fournis au moment son build par son parent.
+Aucun évènement utilisateur ne relancera le build d'un stateless widget
+
+### Les Widget Statefull 
+C'est un widget qui a un état répresenté par ses *données internes* qui changeront au cours du cycle de vie de ce *Widget*.
+Les données incluses dans ce type de *widget* forment un ensemble que l'on nomme **State**, quand les données du **State** changent, le rendu du **Widget** est regénéré.
