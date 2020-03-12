@@ -16,3 +16,12 @@ Les bases de flutter
 * Utilise Native **ARM Binary Code** pour la logigue applicative
 * Utilise un **channel** pour la transmission de message aux **fonctionnalités natives**
 > **In Flutter, Everything is a widget**.
+
+## Les bases du langage Dart
+### Dans cette partie j'ai decouvert:
+* les variables en dart (int, double, dynamic, List, Map),
+* les classes (constructeur, methode), les interfaces,
+* les notions d'héritage, de polymorphisme,
+* comment faire des import en dart,
+* comment convertir une chaine en objet JSON(**JavaScript Object Notation**) avec <code>json.decode(variable)</code>,
+* comment convertir un Objet *JSON* en une chaine de caractère <code>json.encode(objet)</code>
